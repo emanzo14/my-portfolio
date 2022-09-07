@@ -5,11 +5,23 @@ import AnimatedLetters from "../../components/AnimatedLetters/Letters";
 
 const Homepage = () => {
   const [letterClass, setLetterClass] = useState("text-animate");
-  const nameArray = ["E", "d", "g", "i", "e", " ", "M", "a", "n", "z", "o"];
-  const jobArray = [
+  const nameArray = [
     "I'",
     "m",
     "",
+    "E",
+    "d",
+    "g",
+    "i",
+    "e",
+    " ",
+    "M",
+    "a",
+    "n",
+    "z",
+    "o",
+  ];
+  const jobArray = [
     "a",
     "",
     "F",
@@ -37,7 +49,7 @@ const Homepage = () => {
   useEffect(() => {
     setTimeout(() => {
       setLetterClass("text-animate-hover");
-    }, 5000);
+    }, 4000);
   }, [letterClass]);
 
   return (
@@ -49,14 +61,14 @@ const Homepage = () => {
           <br />
           <AnimatedLetters
             letterClass={letterClass}
-            strArray={jobArray}
+            strArray={nameArray}
             idx={10}
           />
           <br />
           <AnimatedLetters
             letterClass={letterClass}
-            strArray={nameArray}
-            idx={25}
+            strArray={jobArray}
+            idx={14}
           />
         </h1>
         <h2>Software Engineer / Developer / Designer</h2>
