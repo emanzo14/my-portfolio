@@ -28,7 +28,7 @@ const Sidebar = () => {
           </a>
         </nav>
         <nav>
-          <a href="/projects" className="projects-link">
+          <a href="/works" className="works-link">
             <FontAwesomeIcon icon={faFolderOpen} color="fff" />
           </a>
         </nav>

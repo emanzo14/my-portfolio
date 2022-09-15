@@ -2,9 +2,7 @@ import AnimatedLetters from "../../components/AnimatedLetters/Letters";
 import "./Aboutpage.scss";
 import { useState, useEffect } from "react";
 import {
-  faAngular,
   faCss3,
-  faGitAlt,
   faHtml5,
   faJsSquare,
   faNodeJs,
@@ -62,7 +60,7 @@ const Aboutpage = () => {
             <p>2013</p>
           </div>
           <div>
-            <p>Attended Rowan University</p>
+            <p>Attended Rowan College</p>
           </div>
           <div className="year">
             <p>2017</p>
